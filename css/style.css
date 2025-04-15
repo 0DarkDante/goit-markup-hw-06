@@ -1,87 +1,18 @@
-/* Section futures */
 
-.features {
-  padding: 120px 0;
-}
-
-.features-sprite {
-  width: 264px;
-  height: 112px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  background: #f4f4fd;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 8px;
-}
-
-.features-list {
-  justify-content: space-between;
-  gap: 24px;
-}
-
-.features-item {
-  flex-basis: calc((100% - 72px) / 4);
-}
-
-.features-item-subject {
-  font-weight: 500;
-  font-size: 20px;
-}
 /* Section team */
 
 .team {
-  background-color: #F4F4FD;
   padding: 120px 0;
 }
 
-.team-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: #2e2f42;
-  margin-bottom: 72px;
-}
-
-.team-list { 
-  display: flex;
-  gap: 24px;
-}
-
 .team-item {
-  background-color: #FFFFFF;
   flex-basis: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-position {
   padding: 32px 0;
 }
 
-.team-img {}
-
-.team-headline {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  margin-bottom: 8px;
-}
-
-.team-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
 
 /* Section portfolio */
 
