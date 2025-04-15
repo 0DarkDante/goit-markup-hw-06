@@ -1,18 +1,4 @@
 
-/* Section team */
-
-.team {
-  padding: 120px 0;
-}
-
-.team-item {
-  flex-basis: calc((100% - 72px) / 4);
-}
-
-.team-position {
-  padding: 32px 0;
-}
-
 
 /* Section portfolio */
 
