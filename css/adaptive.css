@@ -817,3 +817,98 @@ img {
 .subscribe-btn-svg {
   margin-left: 16px;
 }
+
+@media screen and (min-width: 768px) {
+  .footer .container {
+    padding-left: 108px;
+    padding-right: 108px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .footer-social-media-text {
+    text-align: left;
+  }
+
+  .footer-subscribe-text {
+    text-align: left;
+    margin-top: 48px;
+  }
+
+  .header-logo {
+    padding: 0;
+  } 
+
+  .footer-social-media-text {
+    margin-top: 0;
+  }
+
+  .footer-sprite-link {
+    display: flex;
+  }
+
+  .subscribe-btn {
+    margin: 0;
+  }
+
+  .footer-form {
+    display: flex;
+    gap: 24px;
+  }
+
+  .footer-input-email {
+    width: 264px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+
+  .footer .container {
+    padding-left: 0;
+    padding-right: 0;
+    gap: 0;
+  }
+
+  .footer {
+    padding: 100px 0;
+  }
+
+  footer>.container {
+    display: flex;
+    align-items: baseline
+  }
+
+  .footer-main {
+    margin-right: 120px
+  }
+
+  .footer-sprite-link:hover {
+    background-color: #31d0aa;
+  }
+
+  .footer-sprite-link:focus {
+    background-color: #31d0aa;
+  }
+
+  .team-sprite {
+    fill: #f4f4fd;
+  }
+
+  .footer-sprite li {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-form {
+    display: flex;
+    gap: 24px;
+  }
+
+  .footer-subcribe {
+    margin-left: 80px;
+  }
+
+  .subscribe-btn-svg {
+    margin-left: 16px;
+  }
+}
