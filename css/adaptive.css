@@ -1092,3 +1092,40 @@ img {
   border: none;
   fill: #F4F4FD;
 }
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .modal-close-btn:hover {
+    border: none;
+    background-color: #404bbf;
+    fill: #fff;
+  }
+  
+  .modal-close-btn:focus {
+    background-color: #404bbf;
+    border: none;
+  }
+  
+  .modal-close-btn:focus .modal-close-btn-svg {
+    fill: #ffffff
+  }
+  
+  .form-input:focus {
+    border-color: #4d5ae5;
+  }
+  
+  .form-input:focus+.form-input-svg {
+    fill: #4d5ae5;
+  }
+  
+  .modal-textarea:focus {
+    border-color: #4D5AE5;
+  }
+}
