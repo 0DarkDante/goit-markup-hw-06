@@ -79,7 +79,6 @@ img {
 
 .header .container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -113,6 +112,10 @@ img {
 .burger-icon {
   display: block;
   fill: #2f2f37;
+}
+
+.header-addres-list li:first-child a  {
+  color: #4D5AE5;
 }
 
 @media screen and (min-width: 768px) {
@@ -259,7 +262,6 @@ img {
 
 .mobile-menu-nav {
   margin-bottom: auto;
-  margin-right: auto;
 }
 
 .mobile-menu-nav-item {
@@ -312,7 +314,6 @@ img {
 .header-addres-menu {
   display: block;
   margin-bottom: 40px;
-  margin-right: auto;
 }
 
 .header-addres-list a:focus,
@@ -326,6 +327,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 
 .header-addres-item-menu:first-child {
