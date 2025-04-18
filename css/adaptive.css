@@ -130,9 +130,14 @@ img {
     }
 
   .header-addres {
-      display: block;
+      display: flex;
+      align-items: center;
       font-style: normal;
-    }
+  }
+
+  .header-addres-list li:first-child a {
+    color: #434455;
+  }
 
   .header-logo {
     padding: 24px 0;
@@ -196,6 +201,11 @@ img {
 @media screen and (min-width: 1158px) {
   .header-logo {
     margin-right: 76px;
+  }
+
+  .header-addres {
+    display: flex;
+    align-items: center;
   }
 
   .header-addres-list {
@@ -317,7 +327,8 @@ img {
 }
 
 .header-addres-list a:focus,
-.mobile-menu-nav-link:focus {
+.mobile-menu-nav-link:focus,
+.header-addres .header-addres-link:hover  {
   color: #404bbf;
 }
 
